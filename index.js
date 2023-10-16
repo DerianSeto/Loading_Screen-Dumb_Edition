@@ -1,3 +1,4 @@
+Start();
 
 function Start(){
 	setTimeout(() => {Go1 = setInterval(UpDown1, 800); UpDown1();}, 0);
