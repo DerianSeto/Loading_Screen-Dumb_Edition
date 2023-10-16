@@ -1,0 +1,35 @@
+div{
+	width: 5%;
+	height: 5%;
+	
+	background-color: #00FF1B; /* Green */
+	position: absolute;
+	top: 36%;
+}
+	#cont1{
+		left: 39%;
+	}
+	
+	#cont2{
+		left: 45%;
+	}
+	
+	#cont3{
+		left: 51%;
+	}
+	
+.Animation{
+	animation: Bounce 400ms ease-in 0s 2 alternate none paused;
+}
+	@keyframes Bounce{
+		from{
+			top: 36%;
+			background-color: lime;
+		}
+	
+		to{
+			top: 44%;
+			background-color: blue;
+		}
+	}
+	
